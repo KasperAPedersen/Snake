@@ -25,6 +25,7 @@ namespace OOP2SOP
         internal void DrawPlayerPosition()
         {
             Console.SetCursorPosition(CMap.Position.X + Position.X + 1, CMap.Position.Y + Position.Y + 1);
+            
             Console.Write("X");
 
             Console.SetCursorPosition(5, Console.WindowHeight - 1);
